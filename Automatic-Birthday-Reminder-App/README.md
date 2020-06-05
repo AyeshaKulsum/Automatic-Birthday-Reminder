@@ -25,7 +25,6 @@ App automatically sends mail wishes to employees who are celebrating birthday on
 
 ## Additional Notes
 - Provide input for onEmployeeCreate and onEmployeeUpdate from freshteam documentation and fill necessary details such as date_of_birth,official_email and reporting_to_id before executing.
-- This is totally backend app which is automated so i can't show view but i'm sharing recorded video which may help you to run this app.
-   
+- This is totally backend app which is automated so i can't show view but i'm sharing recorded video which may help you to run this app. https://youtu.be/GrFkV63bX0E
 ## Future Work
 - We can work on automating other important reminders such as Certifications or Licenses which are about to end and other important dates.  
