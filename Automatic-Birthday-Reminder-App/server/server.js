@@ -276,6 +276,7 @@ exports = {
     year = payload.data.year;
     var date = new Date();
     var age = date.getYear() + 1900 - year;
+    if (age > 1900) age -= 1900;
     var subjectToEmployee = "Happy Birthday";
     var textToEmployee =
       "Hi " +
