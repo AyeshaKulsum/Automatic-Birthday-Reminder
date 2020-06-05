@@ -1,14 +1,14 @@
 {
   "data": {
-    "employee_name": "Saif Bhoot",
-    "employee_email": "saifshine7@gmail.com",
-    "manager_mail": "ayeshakulsum11@gmail.com",
-    "year": 1998
+    "employee_name": "",
+    "employee_email": "",
+    "manager_mail": "",
+    "year": 1998,
   },
   "iparams": {
-    "apiKey": "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",
-    "Email": "ayeshakulsum11@gmail.com",
-    "freshteamApiKey": "YLLV-YTBwsPRbhax4QGBLQ"
+    "apiKey": "",
+    "Email": "",
+    "freshteamApiKey": ""
   },
   "event": "onScheduledEvent"
 }
