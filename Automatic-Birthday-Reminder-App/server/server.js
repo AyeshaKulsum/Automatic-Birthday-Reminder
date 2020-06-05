@@ -47,7 +47,8 @@ function createSchedule(
   if (date.getMonth() < dt.getMonth()) {
     date.setYear(dt.getYear() + 1901);
   } else if (date.getMonth() == dt.getMonth()) {
-    if (date.getDay() < dt.getDay()) {
+    //For testing today use this condition date.getDay() < dt.getDay() below
+    if (date.getDay() <= dt.getDay()) {
       date.setYear(dt.getYear() + 1901);
     } else {
       date.setYear(dt.getYear() + 1900);
@@ -55,8 +56,9 @@ function createSchedule(
   } else {
     date.setYear(dt.getYear() + 1900);
   }
-  date.setTime(dt.getTime());
-  date.setMinutes(dt.getMinutes() + 6);
+  //For testing now uncomment this lines
+  //date.setTime(dt.getTime());
+  //date.setMinutes(dt.getMinutes() + 6);
   console.log(id, employee_name, employee_email, date, manager_mail);
 
   return $schedule.create({
@@ -68,8 +70,9 @@ function createSchedule(
       year: year,
     },
     schedule_at: date.toISOString(),
+    //For testing below commented repeat doesn't work. To automatically send wishes every year uncomment and modify the below code as required.
     // repeat: {
-    //   time_unit: "minutes",
+    //   time_unit: "years",
     //   frequency: 1,
     // },
   });
