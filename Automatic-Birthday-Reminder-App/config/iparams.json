@@ -1,0 +1,29 @@
+{
+  "apiKey": {
+    "display_name": "Send Grid Api Key",
+    "description": "Please enter your Send Grid Api Key",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "Email": {
+    "display_name": "Official Email",
+    "description": "Please enter your email address",
+    "type": "email",
+    "required": true
+  },
+  "freshteamApiKey": {
+    "display_name": "Fresh Team Api Key",
+    "description": "Please enter your Fresh Team Api Key",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "domainName": {
+    "display_name": "Enter your domain Name For freshteam",
+    "description": "Please enter your domain Name for freshteam example(https://domainName.freshteam.com/api/employees)",
+    "type": "text",
+    "required": true,
+    "secure": true
+  }
+}
